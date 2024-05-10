@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-games/static/css/main.1730843b.css",
-    "main.js": "/react-games/static/js/main.7e0705bf.js",
+    "main.css": "/react-games/static/css/main.ccac00ab.css",
+    "main.js": "/react-games/static/js/main.ca0fc49b.js",
     "static/js/453.c5693677.chunk.js": "/react-games/static/js/453.c5693677.chunk.js",
     "static/media/Bird.png": "/react-games/static/media/Bird.2aacb3429dd4b85ed492.png",
     "static/media/First.mp3": "/react-games/static/media/First.6c3d55cddd73d15c3c46.mp3",
     "static/media/Second.mp3": "/react-games/static/media/Second.95d23809bf826d0d56b1.mp3",
     "index.html": "/react-games/index.html",
-    "main.1730843b.css.map": "/react-games/static/css/main.1730843b.css.map",
-    "main.7e0705bf.js.map": "/react-games/static/js/main.7e0705bf.js.map",
+    "main.ccac00ab.css.map": "/react-games/static/css/main.ccac00ab.css.map",
+    "main.ca0fc49b.js.map": "/react-games/static/js/main.ca0fc49b.js.map",
     "453.c5693677.chunk.js.map": "/react-games/static/js/453.c5693677.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1730843b.css",
-    "static/js/main.7e0705bf.js"
+    "static/css/main.ccac00ab.css",
+    "static/js/main.ca0fc49b.js"
   ]
 }
