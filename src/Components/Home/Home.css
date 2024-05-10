@@ -1,0 +1,16 @@
+
+.menubar-main-div{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+.menubar-main-div ol li{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.menubar-main-div ol li a{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}

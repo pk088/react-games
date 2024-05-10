@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.input-field {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #007bff; /* Change border color when focused */
+}
+
+input {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.random-value {
+    animation: fade-in 0.5s ease-in-out;
+}
+
+.restart-button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.restart-button:hover {
+    background-color: #45a049;
+}
+
+@keyframes moveRightToLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.random-value {
+    animation: fade-in 0.5s ease-in-out, moveRightToLeft 1s ease-in-out; /* Apply multiple animations */
+}

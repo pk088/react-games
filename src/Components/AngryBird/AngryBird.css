@@ -1,0 +1,63 @@
+* {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.angry-bird-main-div {
+  cursor: crosshair;
+}
+/* .round-ball {
+  border: 2px solid green;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+} */
+.score-div {
+  display: flex;
+  justify-content: space-between;
+}
+.bird-image {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-over {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.restart-btn {
+  background-color: yellowgreen;
+  outline: 1px solid grey;
+  border: none;
+  border-radius: 30px;
+  padding: 5px 20px;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+}
+.restart-btn:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .bird-image {
+    height: 40px;
+  }
+  .score-div{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .score-div h3{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  .game-over h1{
+    font-size: 30px;
+  }
+}
